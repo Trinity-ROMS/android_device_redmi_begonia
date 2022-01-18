@@ -559,4 +559,7 @@
     <!-- Amount of time in ms the user needs to press the relevant keys to trigger the
          screenshot chord -->
     <integer name="config_screenshotChordKeyTimeout">0</integer>
+
+    <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
+    <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
 </resources>
