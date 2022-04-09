@@ -2,6 +2,7 @@
 ro.audio.silent=0
 audio.deep_buffer.media=false
 ro.config.vc_call_vol_steps=10
+ro.config.media_vol_steps=7
 
 # Blur
 ro.surface_flinger.supports_background_blur=1
