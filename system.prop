@@ -66,6 +66,9 @@ sys.ipo.disable=1
 # Keys
 qemu.hw.mainkeys=0
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Kernel
 ro.kernel.zio=38,108,105,16
 
