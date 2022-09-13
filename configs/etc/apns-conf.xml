@@ -3266,8 +3266,8 @@
         mcc="222"
         mnc="01"
         type="default"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
         mvno_type="iccid"
         mvno_match_data="8991840,8991854,8991855,8991856,8991857,8991858,8991859,899186,
                        8991870,8991871,8991872,8991873,8991874"
@@ -23989,8 +23989,8 @@
         mnc="01"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24108,8 +24108,8 @@
         mnc="05"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24265,8 +24265,8 @@
         mnc="11"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24324,8 +24324,8 @@
         mnc="13"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24383,8 +24383,8 @@
         mnc="15"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24549,8 +24549,8 @@
         mnc="20"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24698,8 +24698,8 @@
         mnc="27"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -24770,8 +24770,8 @@
         mnc="30"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -25082,8 +25082,8 @@
         mnc="43"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -25171,8 +25171,8 @@
         mnc="46"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -25564,8 +25564,8 @@
         mnc="60"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -25594,6 +25594,8 @@
         mnc="61"
         apn="airtelgprs.com"
         type="default,supl"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Airtel MMS"
@@ -26209,8 +26211,8 @@
         mnc="84"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -26286,8 +26288,8 @@
         mnc="86"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -26345,8 +26347,8 @@
         mnc="88"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -27947,8 +27949,8 @@
         mnc="66"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -27977,8 +27979,8 @@
         mnc="67"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28070,8 +28072,8 @@
         mnc="750"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28100,8 +28102,8 @@
         mnc="751"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28130,8 +28132,8 @@
         mnc="752"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28160,8 +28162,8 @@
         mnc="753"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28190,8 +28192,8 @@
         mnc="754"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28220,8 +28222,8 @@
         mnc="755"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28250,8 +28252,8 @@
         mnc="756"
         apn="www"
         type="default,supl"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="Vodafone MMS"
@@ -28281,8 +28283,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -28301,8 +28303,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -30235,8 +30237,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -31318,8 +31320,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -31338,8 +31340,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -31358,8 +31360,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -31378,8 +31380,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
@@ -31398,8 +31400,8 @@
         apn="jionet"
         authtype="0"
         type="default,supl,xcap"
-        protocol="IPV4V6"
-        roaming_protocol="IPV4V6"
+        protocol="IP"
+        roaming_protocol="IP"
     />
 
     <apn carrier="IMS"
