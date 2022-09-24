@@ -6,6 +6,7 @@ genfscon sysfs /devices/platform/13040000.mali                                  
 
 # Leds
 genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-0034/mt6360_pmu_rgbled.4.auto/leds u:object_r:sysfs_leds:s0
+genfscon sysfs /devices/platform/leds-mt65xx/leds/lcd-backlight u:object_r:sysfs_leds:s0
 
 # Libperfmgr
 genfscon sysfs /devices/system/cpu/cpufreq/mtk/.cluster_(min|max)_freq                                                          u:object_r:sysfs_mtk_cpufreq:s0
@@ -13,3 +14,6 @@ genfscon sysfs /kernel/gpu/gpu_(min|max)_clock                                  
 
 # Vibrator
 genfscon sysfs /kernel/thunderquake_engine/level u:object_r:sysfs_vibrator:s0
+
+# Touchpanel
+genfscon sysfs /touchpanel u:object_r:sysfs_touchpanel:s0
