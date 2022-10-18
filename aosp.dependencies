@@ -1,7 +1,7 @@
 [
   {
-    "repository" : "android_kernel_xiaomi_mt6785",
-    "target_path": "kernel/xiaomi/mt6785",
+    "repository" : "device_redmi_begonia-kernel",
+    "target_path": "device/redmi/begonia-kernel",
   },
   {
     "repository" : "vendor_redmi_begonia",
