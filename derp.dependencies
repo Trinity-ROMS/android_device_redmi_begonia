@@ -18,5 +18,9 @@
   {
     "repository" : "android_packages_apps_MtkFMRadio",
     "target_path": "packages/apps/MtkFMRadio"
+  },
+  { 
+    "repository": "azure-clang", 
+    "target_path": "prebuilts/clang/host/linux-x86/clang-azure"
   }
 ]
