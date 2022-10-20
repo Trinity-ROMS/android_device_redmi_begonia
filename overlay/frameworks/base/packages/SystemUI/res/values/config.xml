@@ -26,9 +26,6 @@
     <dimen name="recents_task_view_rounded_corners_radius">9dp</dimen>
     <dimen name="navigation_side_padding">85dp</dimen>
 
-    <!-- Doze: does this device support STATE_DOZE?  -->
-    <bool name="doze_display_state_supported">true</bool>
-
     <!-- FPSInfo -->
     <string name="config_fpsInfoSysNode" translatable="false">/sys/module/primary_display/parameters/display_framerate_main</string>
 
