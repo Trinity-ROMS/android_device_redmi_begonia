@@ -76,6 +76,10 @@ BOARD_PREBUILT_DTBIMAGE_DIR := device/redmi/begonia-kernel
 BOARD_PREBUILT_DTBOIMAGE := device/redmi/begonia-kernel/dtbo.img
 BOARD_DTBOIMG_PARTITION_SIZE := 33554432
 
+# Vendor Modules
+BOARD_VENDOR_KERNEL_MODULES += \
+    $(wildcard device/redmi/begonia-kernel/*.ko)
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := begonia
 
