@@ -73,10 +73,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
-# Remove Packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.3.vendor \
