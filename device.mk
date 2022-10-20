@@ -18,7 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Prebuilt kernel
-LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+LOCAL_KERNEL := device/redmi/begonia-kernel/Image
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
