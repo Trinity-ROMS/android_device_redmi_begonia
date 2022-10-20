@@ -70,7 +70,8 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_NO_KERNEL := false
 
 # DTB
-BOARD_PREBUILT_DTBIMAGE_DIR := device/redmi/begonia-kernel
+TARGET_PREBUILT_DTB := device/redmi/begonia-kernel/dtb.img
+BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 
 # DTBO partition definitions
 BOARD_PREBUILT_DTBOIMAGE := device/redmi/begonia-kernel/dtbo.img
