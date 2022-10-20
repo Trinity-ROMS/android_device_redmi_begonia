@@ -17,6 +17,14 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Prebuilt kernel
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_KERNEL):kernel
+
+PRODUCT_VENDOR_KERNEL_HEADERS := device/redmi/begonia-kernel/kernel-headers
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
