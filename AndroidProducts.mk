@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_begonia.mk
+    $(LOCAL_DIR)/syberia_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    syberia_begonia-user \
+    syberia_begonia-userdebug \
+    syberia_begonia-eng
