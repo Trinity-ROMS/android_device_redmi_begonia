@@ -86,6 +86,7 @@ ART_BUILD_HOST_DEBUG := false
 
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 # Enable DM file pre-opting to reduce first boot time
 PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
