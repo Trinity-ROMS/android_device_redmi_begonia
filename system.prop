@@ -48,6 +48,7 @@ ro.sys.fw.dex2oat_thread_count=8
 dalvik.vm.image-dex2oat-filter=speed-profile
 dalvik.vm.dex2oat-filter=speed-profile
 dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
 
 # Display
 ro.vendor.all_modes.colorpick_adjust=true
