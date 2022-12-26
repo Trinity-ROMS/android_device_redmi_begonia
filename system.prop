@@ -50,6 +50,9 @@ dalvik.vm.dex2oat-filter=speed-profile
 dalvik.vm.dex2oat64.enabled=true
 
 # Display
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 ro.vendor.all_modes.colorpick_adjust=true
 ro.vendor.cabc.enable=true
 ro.vendor.colorpick_adjust=true
