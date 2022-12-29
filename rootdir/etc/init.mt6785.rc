@@ -8,6 +8,10 @@ import /vendor/etc/init/hw/init.modem.rc
 on early-init
     write /proc/bootprof "INIT:early-init"
 
+    # Workaround for cache
+    rm /data/resource-cache
+    rm /data/system/package_cache
+
 on init
     # change lk_env permission
     chown root system /proc/lk_env
