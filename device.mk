@@ -13,6 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     hardware/mediatek
 
 # Audio
@@ -295,7 +297,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power-V1-ndk.vendor
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.example
+    android.hardware.power-service.mediatek-libperfmgr
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
