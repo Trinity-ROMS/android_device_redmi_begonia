@@ -433,7 +433,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.vendor.mtk_nn_quant_preferred=1 \
     ro.vendor.mtk_nn_support=1 \
     ro.vendor.mtk_pq_color_mode=1 \
-    ro.vendor.mtk_pq_support=2 \
+    ro.vendor.mtk_pq_support=0 \
     ro.vendor.mtk_protocol1_rat_config=C/Lf/Lt/W/T/G \
     ro.vendor.mtk_ps1_rat=C/Lf/Lt/W/T/G \
     ro.vendor.mtk_ril_mode=c6m_1rild \
@@ -484,6 +484,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.has_wide_color_display=true \
     persist.sys.sf.color_saturation=1.1 \
+    persist.sys.sf.color_mode=0 \
     persist.sys.sf.native_mode=0
 
 # Zygote
