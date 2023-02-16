@@ -94,7 +94,7 @@ PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Launcher3QuickStep \
-    SettingsInlelligence \
+    SettingsIntelligence \
     SettingsProvider \
     Settings
 
