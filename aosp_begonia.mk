@@ -41,7 +41,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 BUILD_FINGERPRINT := "Redmi/begonia/begonia:11/RP1A.200720.011/V12.5.5.0.RGGMIXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="begonia-user 11 RP1A.200720.011 V12.5.5.0.RGGMIXM release-keys" \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 
