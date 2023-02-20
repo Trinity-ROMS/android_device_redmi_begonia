@@ -7,3 +7,5 @@ dontaudit untrusted_app ashmem_device:chr_file open;
 dontaudit crash_dump init:process ptrace;
 
 dontaudit audioserver vendor_default_prop:file read;
+
+dontaudit system_app vendor_default_prop:file read;
