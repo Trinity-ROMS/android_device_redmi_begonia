@@ -26,6 +26,7 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     bluetooth.profile.pbap.server.enabled?=true \
     bluetooth.profile.sap.server.enabled?=true \
     dalvik.vm.dex2oat64.enabled=true \
+    bluetooth.le.disable_apcf_extended_features=1 \
     dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt \
     debug.mediatek.disp_decompress=1 \
     debug.mediatek.game_pq_enable=1 \
