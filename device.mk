@@ -335,6 +335,19 @@ PRODUCT_PACKAGES += \
     fstab.mt6785_ramdisk \
     ueventd.mt6785.rc
 
+# Runtime Resource (RRO) Overlays
+PRODUCT_PACKAGES += \
+    ApertureOverlayBegonia \
+    BluetoothOverlayBegonia \
+    CarrierConfigOverlayBegonia \
+    FrameworksResOverlayBegonia \
+    SettingsOverlayBegonia \
+    SettingsProviderOverlayBegonia \
+    SystemUIOverlayBegonia \
+    TelephonyOverlayBegonia \
+    TetheringConfigOverlayBegonia \
+    WifiResOverlayBegonia
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.0.vendor \
@@ -363,10 +376,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
-
-# Tethering
-PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
 
 # Text classifier
 PRODUCT_PACKAGES += \
@@ -419,8 +428,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.0.vendor \
     android.hardware.wifi.supplicant@1.1.vendor \
     android.hardware.wifi.supplicant@1.2.vendor \
-    android.hardware.wifi.supplicant@1.3.vendor \
-    WifiResOverlay
+    android.hardware.wifi.supplicant@1.3.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
