@@ -224,11 +224,6 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.2.vendor \
     android.hardware.neuralnetworks@1.3.vendor
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosp
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # power
