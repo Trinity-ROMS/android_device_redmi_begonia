@@ -318,6 +318,7 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     persist.log.tag.BufferQueueProducer=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.SurfaceControl=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.GraphicBuffer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.lsc_nvram=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.thermal_repeater=$(VENDOR_LOG_LEVEL) \
     persist.radio.multisim.config=dsds \
     persist.vendor.camera3.operationMode.superNightMode=0x800A \
