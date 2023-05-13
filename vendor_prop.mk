@@ -4,7 +4,7 @@ else
 VENDOR_LOG_LEVEL=S
 endif
 
-PRODUCT_PROPERTY_OVERRIDES +=  \
+PRODUCT_VENDOR_PROPERTIES +=  \
     aaudio.mmap_exclusive_policy=2 \
     aaudio.mmap_policy=2 \
     af.fast_track_multiplier=1 \
@@ -498,7 +498,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.zram.periodic_wb_delay_hours=2
 
 # Colors
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.has_wide_color_display=true \
     persist.sys.sf.color_saturation=1.1 \
@@ -506,6 +506,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.sf.native_mode=0
 
 # Zygote
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
     zygote.critical_window.minute=10 \
     persist.device_config.runtime_native.usap_pool_enabled=true
