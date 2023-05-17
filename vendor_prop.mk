@@ -34,7 +34,6 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     debug.hwui.skia_atrace_enabled=false \
     debug.sf.disable_client_composition_cache=1 \
     debug.sf.enable_egl_image_tracker=false \
-    debug.sf.enable_gl_backpressure=1 \
     debug.sf.auto_latch_unsignaled=true \
     debug.sf.early.app.duration=20000000 \
     debug.sf.early.sf.duration=27600000 \
