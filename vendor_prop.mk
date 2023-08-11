@@ -345,6 +345,7 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     persist.vendor.md_c2k_cap_dep_check=0 \
     persist.vendor.mims_support=2 \
     persist.vendor.mtk.volte.enable=1 \
+    persist.data.iwlan.enable=true \
     persist.vendor.mtk_ct_volte_support=3 \
     persist.vendor.mtk_dynamic_ims_switch=1 \
     persist.vendor.mtk_sim_switch_policy=2 \
