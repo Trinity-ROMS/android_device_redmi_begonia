@@ -496,6 +496,7 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     vendor.mtk.vdec.waitkeyframeforplay=9 \
     wifi.concurrent.interface= \
     persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.ims_volte_enable=1 \
     persist.dbg.vt_avail_ovr=1 \
     persist.dbg.wfc_avail_ovr=1 \
     ro.zram.mark_idle_delay_mins=60 \
