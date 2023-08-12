@@ -516,3 +516,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     zygote.critical_window.minute=10 \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# FS-verity
+ro.apk_verity.mode=2
