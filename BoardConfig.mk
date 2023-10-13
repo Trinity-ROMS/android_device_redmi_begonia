@@ -148,6 +148,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
+# Wifi
+WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
+
 # Sepolicy
 include device/mediatek/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
