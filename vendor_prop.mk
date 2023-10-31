@@ -11,6 +11,7 @@ PRODUCT_VENDOR_PROPERTIES +=  \
     audio.adm.buffering.ms=3 \
     audio_hal.period_multiplier=2 \
     bluetooth.device.class_of_device=90,2,12 \
+    bluetooth.hci.erroneous_data_reporting.enabled=false \
     bluetooth.profile.a2dp.source.enabled?=true \
     bluetooth.profile.asha.central.enabled?=true \
     bluetooth.profile.avrcp.target.enabled?=true \
