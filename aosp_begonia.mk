@@ -22,6 +22,11 @@ TARGET_DOESNT_LIKE_FLIPENDO := true
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
+$(call inherit-product-if-exists, vendor/MiuiCameraLeica/config.mk)
+
+# Fix uses broken libraries
+RELAX_USES_LIBRARY_CHECK := true
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
