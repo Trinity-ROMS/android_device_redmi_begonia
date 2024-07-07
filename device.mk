@@ -42,7 +42,8 @@ PRODUCT_PACKAGES += \
     libvisualizer \
     libtinycompress \
     libaudiofoundation \
-    libaudiofoundation.vendor
+    libaudiofoundation.vendor \
+    libldacBT_bco
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
