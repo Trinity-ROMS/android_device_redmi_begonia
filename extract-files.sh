@@ -115,6 +115,9 @@ function blob_fixup {
         lib64/libem_support_jni.so)
             "${PATCHELF}" --add-needed "libjni_shim.so" "${2}"
             ;;
+        lib/libsource.so)
+            grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
+            ;;
     esac
 }
 
